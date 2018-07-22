@@ -58,9 +58,9 @@ Examples:
  > The percentage of LVT cells in the design must be lower than 20% even if it means negative slack condition
 dualVth -lvt 0.2 -constraint hard
 
->We would like to have only 80% of LVT cells in the design or get as close as possible with still positive slack
+> We would like to have only 80% of LVT cells in the design or get as close as possible with still positive slack
 dualVth -lvt 0.8 -constraint soft
 
->We want to swap as many cells as possible, while keeping a positive slack
+> We want to swap as many cells as possible, while keeping a positive slack
 dualVth -lvt 0 -constraint soft
  ```
